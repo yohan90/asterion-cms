@@ -1,0 +1,142 @@
+#content_left {
+    background-color: #0d0d0d;
+    width: 171px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+    .connect {
+        background: url('../img/menuLeft/espaceMembre.png');
+        width: 235px;
+        height: 262px;
+        left: -10px;
+        top: -33px;
+        position: relative;
+        z-index: 2;
+        padding: 68px 0 0 22px;
+        
+        form {
+            width: 147px;
+            height: auto;
+            
+            input[type=text], input[type=password] {
+                border: 1px solid $greenBorder;
+                border-radius: 3px;
+                background-color: $greenBackground;
+                height: 26px;
+                width: 96%;
+                margin: 5px auto 0 auto;
+                outline: none;
+                color: $greenText;
+                font-size: 11px;
+                padding-left: 7px;
+                &::placeholder { 
+                    color: #5f7400;
+                }
+            }
+            label {
+                font-family: Verdana, Sans-serif;
+                font-size: 12px;
+                font-family: "Verdana";
+                color: $greenText;
+            }
+            input[type=submit] {
+                background: url('../img/menuLeft/btn_connect.png') no-repeat;
+                width: 131px;
+                height: 26px;
+                border: 0;
+                cursor: pointer;
+                outline: none;
+                display: block;
+                margin: 0 auto;
+                margin-left: 4px;
+                margin-top: 10px;
+                &:hover {
+                    background-position: 0 -26px;
+                }
+            }
+        }
+    }
+    .navigation {
+        
+        margin-top: -65px;
+        .title {
+            width: 155px;
+            height: 29px;
+            display: block;
+            margin-bottom: 28px;
+            background: url('../img/menuLeft/title_menu.png') no-repeat;
+            
+            &.community {
+                background-position: 0 -33px;
+            }
+            &.statistics {
+                background-position: 0 -66px;
+            }
+            
+        }
+        
+        ul {
+            margin-top: -28px;
+            position: relative;
+            z-index: 1;
+            li {
+                background-color: #1b1b1b;
+                width: 100%;
+                height: 33px;
+                line-height: 33px;
+                padding: 0 10px;
+                
+                border-bottom: 1px solid $borderBlack;
+                
+                a {
+                    color: #707070;
+                    font-size: 13px;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    
+                    span.on { color: $on; }
+                    span.off { color: $off; }
+                }
+                
+                &::before {
+                    content: '';
+                    border-top: 1px solid $BorderGrey;
+                    height: 1px;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                }
+                &:hover {
+                    background-color: #282828;
+                    transition-duration: .5s;
+                }
+                &:nth-child(1)::before {
+                    border-top: 1px solid $BorderGrey;
+                }
+                
+                &.b-top {
+                    border-top: 1px solid $borderBlack;
+                }
+                
+                &.b-bottom {
+                    border-bottom: 1px solid $borderBlack;
+                    &::after {
+                        content: '';
+                        border-top: 1px solid $BorderGrey;
+                        height: 1px;
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// suce stp

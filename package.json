@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "encore production",
+    "dev": "encore dev --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.27.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.0.1"
+  }
+}

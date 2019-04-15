@@ -1,0 +1,14 @@
+{
+  "template/desktop.css": "http://127.0.0.1/Asterion/public/template/desktop.css",
+  "template/desktop.js": "http://127.0.0.1/Asterion/public/template/desktop.js",
+  "template/runtime.js": "http://127.0.0.1/Asterion/public/template/runtime.js",
+  "template/img/background.png": "http://127.0.0.1/Asterion/public/template/img/background.png",
+  "template/img/btn_connect.png": "http://127.0.0.1/Asterion/public/template/img/btn_connect.png",
+  "template/img/espaceMembre.png": "http://127.0.0.1/Asterion/public/template/img/espaceMembre.png",
+  "template/img/menuLeft/btn_connect.png": "http://127.0.0.1/Asterion/public/template/img/menuLeft/btn_connect.png",
+  "template/img/menuLeft/espaceMembre.png": "http://127.0.0.1/Asterion/public/template/img/menuLeft/espaceMembre.png",
+  "template/img/menuTop/topMenu.png": "http://127.0.0.1/Asterion/public/template/img/menuTop/topMenu.png",
+  "template/img/topMenu.png": "http://127.0.0.1/Asterion/public/template/img/topMenu.png",
+  "template/img/menuLeft/title_menu.png": "http://127.0.0.1/Asterion/public/template/img/menuLeft/title_menu.png",
+  "template/img/title_menu.png": "http://127.0.0.1/Asterion/public/template/img/title_menu.png"
+}
