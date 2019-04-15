@@ -4,6 +4,9 @@
       "js": [
         "http://127.0.0.1/Asterion/public/template/runtime.js",
         "http://127.0.0.1/Asterion/public/template/desktop.js"
+      ],
+      "css": [
+        "http://127.0.0.1/Asterion/public/template/desktop.css"
       ]
     }
   }

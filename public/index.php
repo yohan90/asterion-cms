@@ -3,8 +3,8 @@
 
 <div id="container">
 
-    <div id="content_left"> 
-        <?php require_once('partials/sidebar.php'); ?> 
+    <div id="sidebar_left"> 
+        <?php require_once('partials/sidebar_left.php'); ?> 
     </div>
 
     <div id="content_middle">
@@ -19,11 +19,10 @@
         ?>
     </div>
 
-    <div id="content_right"></div>
+    <div id="sidebar_right">
+<?php require_once('partials/sidebar_right.php'); ?>
+    </div>
 
 </div>
 
 <?php require_once('partials/footer.php'); ?>
-
-<!--
-    donc la, tout est séparé. mais faut faire le systeme pour les pages
