@@ -1,10 +1,7 @@
-<div class="slider">
-<img src="template/img/slider/4.png" alt="">
-<div class="box-btn">
-    <i class="btn"></i>
-    <i class="btn"></i>
-    <i class="btn"></i>
-    <i class="btn"></i>
-    <i class="btn"></i>
-</div>
+<h1 class="title_content">Accueil du site</h1>
+
+<div class="topNews">
+        <img class="avatar" src="template/img/news_avatar.png" alt="">
+        <h3 class="title_new">Actualité : <span> Information sur le serveur</span></h3>
+        <div class="post">Posté par <strong>Protocol</strong> le <strong>7/7/2013</strong> à <strong>16h32</strong></div>
 </div>

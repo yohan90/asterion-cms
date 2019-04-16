@@ -1,0 +1,36 @@
+#content_middle {
+    .slider {
+        width: 100%;
+        height: 226px;
+        border-bottom: 1px solid #f2e9d6;
+        position: relative;
+        border-right: 1px solid $borderBlack;
+        
+        img {width: 100%;}
+        
+        .box-btn {
+            width: 109px;
+            text-align: center;
+            height: 28px;
+            position: absolute;
+            right: 6px;
+            top: 6px;
+            background-color: rgba(0, 0, 0, .5);
+            border-radius: 3px;
+            .btn {
+                background: url('../img/slider/ronds.png');
+                width: 17px;
+                height: 17px;
+                display: inline-block;
+                margin-top: 5.5px;
+                cursor: pointer;
+                
+                &:hover {
+                    background: url('../img/slider/ronds.png');
+                    background-position: 17px -17px;
+                }
+                
+            }
+        }
+    }
+}

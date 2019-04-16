@@ -12,14 +12,15 @@ $greenBorder: #171c00;
 
 body {
     background: url('../img/background.png') no-repeat #09414c center 38px;
-    font-family: Arial, Verdana, Sans-serif;
+    font-family: Verdana, Sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: #1d1812;
 }
 
 #container {
     width: 940px;
-    margin: 323px auto 60px auto;
+    margin: 360px auto 60px auto;
     display: flex;
     border: 3px solid #042126;
     border-radius: 3px;
