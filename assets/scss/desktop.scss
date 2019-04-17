@@ -1,14 +1,7 @@
-@import 'normalize';
+@import 'normalize.css/normalize';
 
 @import 'global';
 
-@import 'topBar';
+@import 'partials/partials';
 
-@import 'sidebar_left';
-
-@import 'content_middle';
-@import 'slider';
-@import 'news';
-@import 'comments';
-
-@import 'sidebar_right';
+@import 'modules/modules';

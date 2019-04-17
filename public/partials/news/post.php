@@ -1,6 +1,6 @@
      <div class="news">
      <div class="topNews">
-     <img class="avatar" src="template/img/news_avatar.png" alt="">
+     <img class="avatar" src="template/img/avatar/avatar.png" alt="">
      <h3 class="title_new">Actualité : <span>DÉCOLLAGE POUR L’ÎLE DE PWÂK !</span></h3>
      <div class="post">Posté par <strong>Yohan</strong> le <strong>16/04/2019</strong> à <strong>20h50</strong></div>
      </div>

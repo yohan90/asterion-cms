@@ -5,7 +5,7 @@
     border-bottom-left-radius: 3px;
     
     .connect {
-        background: url('../img/menuLeft/espaceMembre.png');
+        background: url('../../img/menuLeft/espaceMembre.png');
         width: 235px;
         height: 262px;
         left: -10px;
@@ -19,14 +19,14 @@
             height: auto;
             
             input[type=text], input[type=password] {
-                border: 1px solid $greenBorder;
+                border: 1px solid #171c00;
                 border-radius: 3px;
-                background-color: $greenBackground;
+                background-color: #374401;
                 height: 26px;
                 width: 96%;
                 margin: 5px auto 0 auto;
                 outline: none;
-                color: $greenText;
+                color: #687e00;
                 font-size: 11px;
                 padding-left: 7px;
                 &::placeholder { 
@@ -37,10 +37,10 @@
                 font-family: Verdana, Sans-serif;
                 font-size: 12px;
                 font-family: "Verdana";
-                color: $greenText;
+                color: #687e00;
             }
             input[type=submit] {
-                background: url('../img/menuLeft/btn_connect.png') no-repeat;
+                background: url('../../img/menuLeft/btn_connect.png') no-repeat;
                 width: 131px;
                 height: 26px;
                 border: 0;
@@ -64,7 +64,7 @@
             height: 29px;
             display: block;
             margin-bottom: 28px;
-            background: url('../img/menuLeft/title_menu.png') no-repeat;
+            background: url('../../img/menuLeft/title_menu.png') no-repeat;
             
             &.community {
                 background-position: 0 -33px;
@@ -86,7 +86,7 @@
                 line-height: 33px;
                 padding: 0 10px;
                 
-                border-bottom: 1px solid $borderBlack;
+                border-bottom: 1px solid #030303;
                 
                 a {
                     color: #707070;
@@ -97,13 +97,13 @@
                     justify-content: space-between;
                     flex-direction: row;
                     
-                    span.on { color: $on; }
-                    span.off { color: $off; }
+                    span.on { color: #008000; }
+                    span.off { color: #ff0000; }
                 }
                 
                 &::before {
                     content: '';
-                    border-top: 1px solid $BorderGrey;
+                    border-top: 1px solid #3a3a3a;
                     height: 1px;
                     width: 100%;
                     position: absolute;
@@ -115,18 +115,18 @@
                     transition-duration: .5s;
                 }
                 &:nth-child(1)::before {
-                    border-top: 1px solid $BorderGrey;
+                    border-top: 1px solid #3a3a3a;
                 }
                 
                 &.b-top {
-                    border-top: 1px solid $borderBlack;
+                    border-top: 1px solid #030303;
                 }
                 
                 &.b-bottom {
-                    border-bottom: 1px solid $borderBlack;
+                    border-bottom: 1px solid #030303;
                     &::after {
                         content: '';
-                        border-top: 1px solid $BorderGrey;
+                        border-top: 1px solid #3a3a3a;
                         height: 1px;
                         width: 100%;
                         position: absolute;
@@ -138,5 +138,3 @@
         }
     }
 }
-
-// suce stp

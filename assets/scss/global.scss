@@ -1,14 +1,6 @@
-$on : #008000;
-$off : #ff0000;
-
-/*** NAVBAR LEFT ***/
-
-$borderBlack: #030303;
-$BorderGrey: #3a3a3a;
-$greenText: #687e00;
-$greenBackground: #374401;
-$greenBorder: #171c00;
-
+* {margin: 0;padding: 0;box-sizing: border-box;}
+ul {list-style: none;}
+a {text-decoration: none;}
 
 body {
     background: url('../img/background.png') no-repeat #09414c center 38px;
@@ -20,7 +12,7 @@ body {
 
 #container {
     width: 940px;
-    margin: 360px auto 60px auto;
+    margin: 360px auto 0 auto;
     display: flex;
     border: 3px solid #042126;
     border-radius: 3px;
