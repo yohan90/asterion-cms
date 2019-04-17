@@ -1,0 +1,90 @@
+#content_middle {
+    .content_comments {
+        background-color: #a19a8b;
+        width: 98%;
+        height: 225px;
+        margin: 10px auto;
+        border: 1px solid #5d5446;
+        border-radius: 3px;
+        padding: 10px;
+        img {
+            width: 64px;
+            height: 64px;
+            border-radius: 2px;
+            border: 1px solid #5d5446;
+            float: left;
+            margin-right: 10px;
+        }
+        .response {
+            font-size: 15px;
+            font-family: Verdana;
+            color: #5d5446;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+        .postBy {
+            font-size: 11px;
+            font-family: Verdana;
+            color: #d9d2c2;
+            font-weight: 400;
+        }
+        form {
+            .text_comments {
+                background-color: #d9d2c2;
+                width: 490px;
+                height: 125px;
+                border-radius: 4px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                position: relative;
+                outline: none;
+                font-size: 11px;
+                font-family: Verdana;
+                color: #6b6151;
+                resize: none;
+                padding: 5px;
+            }
+            .submit_new {
+                background: #7d9400;
+                background: linear-gradient(to bottom, #7d9400 0%,#566800 46%,#4a5900 82%,#465500 100%);
+                float: right;
+                width: 161px;
+                height: 25px;
+                text-align: center;
+                border: 1px solid #262e01;
+                border-radius: 3px;
+                color: #d9d2c2;
+                cursor: pointer;
+                outline: none;
+                font-size: 12px;
+            }
+        }
+        .text_comments {
+            background-color: #d9d2c2;
+            width: 490px;
+            height: 125px;
+            border-radius: 4px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            position: relative;
+            outline: none;
+            font-size: 11px;
+            float: right;
+            font-family: Verdana;
+            color: #6b6151;
+            resize: none;
+            padding: 5px;
+            &:after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 3px 5px 3px 0;
+                border-color: transparent #d9d2c2 transparent transparent;
+                top: 10px;
+                left: -5px;
+            }
+        }
+    }
+}

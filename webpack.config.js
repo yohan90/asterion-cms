@@ -26,7 +26,7 @@ Encore
     .enableSingleRuntimeChunk()
 
     .cleanupOutputBeforeBuild()
-    .enableSourceMaps(!Encore.isProduction())
+    //.enableSourceMaps(!Encore.isProduction())
     // enables hashed filenames (e.g. app.abc123.css)
     //.enableVersioning(Encore.isProduction())
 
@@ -53,6 +53,15 @@ Encore
     .copyFiles({
         from: './assets/fonts',
         to: 'fonts/[path][name].[ext]',
+    })
+
+
+
+    .enablePostCssLoader((options) => {
+        options.config = {
+            // the directory where the postcss.config.js file is stored
+            path: './postcss.config.js'
+        };
     })
 ;
 
